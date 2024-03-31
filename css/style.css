@@ -123,6 +123,7 @@ margin-top: 0;
 
 .menuppal.is_active{
   transform: translate3d(0px, 0px, 0px);
+ 
 }
 .menuppal{
    background-color: rgba(0, 0, 0, 0.594);
@@ -1008,7 +1009,9 @@ footer {
     transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
     backface-visibility: hidden;
     overflow-y: hidden;
+    transform-style: preserve-3d; 
 }
+
 
 .flip-tarjeta-front {
     transform: rotateY(0deg);

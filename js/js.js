@@ -48,6 +48,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  var flipTarjetas = document.querySelectorAll('.flip-tarjeta');
+  flipTarjetas.forEach(function(flipTarjeta) {
+      flipTarjeta.addEventListener('touchstart', function() {
+          flipTarjeta.classList.add('touch');
+      });
+      flipTarjeta.addEventListener('touchend', function() {
+          flipTarjeta.classList.remove('touch');
+      });
+  });
+});
 
 
 
