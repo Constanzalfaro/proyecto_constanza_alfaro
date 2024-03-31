@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta etiqueta para descripción SEO -->
+  <meta name="description"
+    content="Descubre el mundo con nuestra completa guía de viajes. Encuentra los mejores consejos, información sobre seguros de viaje, reserva de vuelos y las locaciones cinematográficas más impresionantes. Prepárate para explorar nuevos destinos y vivir experiencias inolvidables con nosotros.">
+  <meta name="keywords" content="Viajes y cine, locaciones de cine que te encutras viajando">
+  <meta name="author" content="constanza Alfaro">
+  <title>Viejera Errante</title>
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;400;900&amp;family=Titillium+Web:wght@200;400;900&amp;display=swap"
+    rel="stylesheet">
+
+  <!-- Iconos -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- Estilos -->
+
+  <link rel="shortcut icon" href="../img/icono_pestana.png" />
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- Etiqueta script -->
+  <script defer src="../js/js.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Fondo, utilizando background-image -->
+  <div class="fondo-contacto">
+
+    <!-- Menú responsive -->
+    <header>
+
+      <div class="hamburger">
+        <div class="_layer -top"></div>
+        <div class="_layer -mid"></div>
+        <div class="_layer -bottom"></div>
+      </div>
+      <nav class="menuppal">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../pages/galeria.html">Galeria</a></li>
+          <li><a href="../pages/contancto.html">Contacto</a></li>
+
+        </ul>
+      </nav>
+
+    </header>
+
+
+
+    <!-- Seccion formulario -->
+    <main>
+      <div class="div-titulo-contacto">
+        <h1 id="h1-contacto" class="titulo-contacto-entrada">Contacto de supervivencia</h1>
+      </div>
+
+      <section>
+        <div class="div-formulario">
+          <form id="formulario" class="survey-form" action="tu_archivo_de_procesamiento.php" method="POST">
+            <label for="name">Nombre:</label>
+            <input id="nombre" type="text" name="nombre" required placeholder="Tu nombre">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" required placeholder="Email">
+            <br>
+            <br>
+            <br>
+            <label for="number">Edad:</label>
+            <input id="number" type="number" name="edad" min="1" max="130" required placeholder="Edad">
+            <br>
+            <br>
+            <label for="dropdown">Continente que te interesa Explorar:</label>
+            <select name="continente" id="dropdown" required>
+              <option value="" disabled selected></option>
+              <option value="1">América del Norte</option>
+              <option value="2">América Central</option>
+              <option value="3">América del Sur</option>
+              <option value="4">Europa</option>
+              <option value="5">Asia</option>
+              <option value="6">Oceanía</option>
+            </select>
+            <br>
+            <br>
+
+            <label>Al momento de salir a explorar, ¿qué prefieres llevar contigo?</label>
+            <input type="radio" name="equipaje" value="Mochila">Mochila
+            <input type="radio" name="equipaje" value="Maleta">Maleta
+            <input type="radio" name="equipaje" value="Sueños">Mis sueños y añoranzas
+            <br>
+            <br>
+            <label>Selecciona si eres:</label>
+            <input type="checkbox" name="caracteristica[]" value="Divertido">Divertido
+            <input type="checkbox" name="caracteristica[]" value="Miedo">Haré esta aventura con miedo, pero
+            no me detendré
+            <br>
+            <br>
+            <br>
+            <br>
+            <label for="comment">Escribe aquí:</label>
+            <textarea id="comment" name="comentario" class="text-area" rows="5" placeholder="Escribe aquí"></textarea>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
+      </section>
+    </main>
+
+    <!-- Footer incluye textos con iconos ademas de links directos a rrss que -->
+    <footer>
+      <div class="div-footer">
+        <section>
+          <span class="material-symbols-outlined">location_on</span>
+          <span>Sevilla - España</span>
+        </section>
+        <section>
+          <span class="material-symbols-outlined">mail</span>
+          <span>constanza.alfaro.alfaro@alumnos.cei.es</span>
+        </section>
+      </div>
+      <span class="borde-footer"></span>
+      <div class="rrss">
+        <a title="Facebook" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+          <img class="rrss-simbol" src="../img/facebook.png" alt="logo de Facebook con enlace">
+        </a>
+        <a title="Instagram" href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+          <img class="rrss-simbol" src="../img/instagram.png" alt="logo de instagram con enlace">
+        </a>
+      </div>
+    </footer>
+
+  </div> <!-- Cierre fondo -->
+
+
+
+
+  <!-- Etiqueta script -->
+<script defer src="../js/js.js" async></script>
+</body>
+
+
+</html>
